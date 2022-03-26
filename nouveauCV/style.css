@@ -1,0 +1,96 @@
+
+.entete {
+    margin-top: 0px;
+    top: 0px;
+    width: 100%;
+    position: fixed;        
+    background: #333;
+    color: white;
+    font-size: xx-large;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.entete a:link {
+    color: white
+}
+.entete a:visited {
+    color: white
+}
+.entete a:hover {
+    color: red
+}
+.entete a:active {
+    color: yellow
+}
+
+body {
+    color: white;
+    background-color: #336;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(rgb(42, 44, 73), rgb(110, 112, 247));
+}
+
+.chapitre {
+    margin-top: 150px;
+    margin-bottom: 150px;
+    text-align: center;
+}
+
+.table {
+    border: 0;
+}
+.circle {
+    position: absolute;
+    top: 200px;
+    left: 250px;
+    width: 200px;
+    height: 200px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+    background: rgba(255, 56, 56, 0.082);
+}
+.circle2 {
+    position: absolute;
+    top: 100px;
+    left: 1250px;
+    width: 100px;
+    height: 100px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    background: rgba(15, 110, 235, 0.103);
+}
+.circle3 {
+    position: absolute;
+    top: 650px;
+    left: 1050px;
+    width: 150px;
+    height: 150px;
+    -webkit-border-radius: 75px;
+    -moz-border-radius: 75px;
+    border-radius: 75px;
+    background: rgba(15, 110, 235, 0.13);
+}
+.circle4 {
+    position: absolute;
+    top: 350px;
+    left: 1700px;
+    width: 180px;
+    height: 180px;
+    -webkit-border-radius: 90px;
+    -moz-border-radius: 90px;
+    border-radius: 90px;
+    background: rgba(255, 56, 56, 0.082);
+}
+.circle5 {
+    position: absolute;
+    top: 800px;
+    left: 300px;
+    width: 100px;
+    height: 100px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    background: rgba(15, 110, 235, 0.103);
+}
